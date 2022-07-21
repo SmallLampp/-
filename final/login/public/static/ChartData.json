@@ -1,0 +1,371 @@
+{
+    "optionBMa":{
+        "title": {
+            "text": "学生数学成绩分析表",
+            "subtext": "数学",
+            "left": "center"
+        },
+        "tooltip": {
+            "trigger": "item"
+        },
+        "legend": {
+            "orient": "vertical",
+            "left": "left"
+        },
+        "series": [
+            {
+            "name": "Access From",
+            "type": "pie",
+            "radius": "50%",
+            "data": [
+                { "value": 660, "name": "小明" },
+                { "value": 602, "name": "小红" },
+                { "value": 617, "name": "小强" },
+                { "value": 525, "name": "小兰" },
+                { "value": 586, "name": "小绿" }
+            ],
+            "emphasis": {
+                "itemStyle": {
+                "shadowBlur": 10,
+                "shadowOffsetX": 0,
+                "shadowColor": "rgba(0, 0, 0, 0.5)"
+                }
+            }
+            }
+        ]
+    },
+    
+    "optionBEn":{
+        "title": {
+            "text": "学生英语成绩分析表",
+            "subtext": "英语",
+            "left": "center"
+        },
+        "tooltip": {
+            "trigger": "item"
+        },
+        "legend": {
+            "orient": "vertical",
+            "left": "left"
+        },
+        "series": [
+            {
+            "name": "Access From",
+            "type": "pie",
+            "radius": "50%",
+            "data": [
+                { "value": 350, "name": "小明" },
+                { "value": 420, "name": "小红" },
+                { "value": 490, "name": "小强" },
+                { "value": 560, "name": "小兰" },
+                { "value": 630, "name": "小绿" }
+            ],
+            "emphasis": {
+                "itemStyle": {
+                "shadowBlur": 10,
+                "shadowOffsetX": 0,
+                "shadowColor": "rgba(0, 0, 0, 0.5)"
+                }
+            }
+            }
+        ]
+    },
+    "optionBCh":{
+        "title": {
+            "text": "学生语文成绩分析表",
+            "subtext": "语文",
+            "left": "center"
+        },
+        "tooltip": {
+            "trigger": "item"
+        },
+        "legend": {
+            "orient": "vertical",
+            "left": "left"
+        },
+        "series": [
+            {
+            "name": "Access From",
+            "type": "pie",
+            "radius": "50%",
+            "data": [
+                { "value": 630, "name": "小明" },
+                { "value": 560, "name": "小红" },
+                { "value": 490, "name": "小强" },
+                { "value": 420, "name": "小兰" },
+                { "value": 350, "name": "小绿" }
+            ],
+            "emphasis": {
+                "itemStyle": {
+                "shadowBlur": 10,
+                "shadowOffsetX": 0,
+                "shadowColor": "rgba(0, 0, 0, 0.5)"
+                }
+            }
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+    "optionZMa": {
+        "title": {
+            "text": "学生数学成绩分析表"
+        },
+        "tooltip": {
+            "trigger": "axis"
+        },
+        "legend": {
+            "data": ["小明", "小红", "小强", "小兰", "小绿"]
+        },
+        "grid": {
+            "left": "3%",
+            "right": "4%",
+            "bottom": "3%",
+            "containLabel": true
+        },
+        "toolbox": {
+            "feature": {
+            "saveAsImage": {}
+            }
+        },
+        "xAxis": {
+            "type": "category",
+            "boundaryGap": false,
+            "data": ["第一次", "第二次", "第三次", "第四次", "第五次", "第六次", "第七次"]
+        },
+        "yAxis": {
+            "type": "value"
+        },
+        "series": [
+            {
+                "name": "小明",
+                "type": "line",
+                "stack": "Total",
+                "data": [90, 78, 100,97, 98, 99, 95]
+            },
+            {
+                "name": "小红",
+                "type": "line",
+                "stack": "Total",
+                "data": [87, 88, 78, 90, 84, 89, 86]
+            },
+            {
+                "name": "小强",
+                "type": "line",
+                "stack": "Total",
+                "data": [90, 91, 89, 88, 80, 89, 90]
+            },
+            {
+                "name": "小兰",
+                "type": "line",
+                "stack": "Total",
+                "data": [70, 77, 73, 77, 80, 72, 76]
+            },
+            {
+                "name": "小绿",
+                "type": "line",
+                "stack": "Total",
+                "data": [67, 70, 77, 85, 90, 97, 100]
+            }
+        ]
+    },
+    "optionZEn": {
+        "title": {
+            "text": "学生英语成绩分析表"
+        },
+        "tooltip": {
+            "trigger": "axis"
+        },
+        "legend": {
+            "data": ["小明", "小红", "小强", "小兰", "小绿"]
+        },
+        "grid": {
+            "left": "3%",
+            "right": "4%",
+            "bottom": "3%",
+            "containLabel": true
+        },
+        "toolbox": {
+            "feature": {
+            "saveAsImage": {}
+            }
+        },
+        "xAxis": {
+            "type": "category",
+            "boundaryGap": false,
+            "data": ["第一次", "第二次", "第三次", "第四次", "第五次", "第六次", "第七次"]
+        },
+        "yAxis": {
+            "type": "value"
+        },
+        "series": [
+            {
+                "name": "小明",
+                "type": "line",
+                "stack": "Total",
+                "data": [50, 50, 50, 50, 50, 50, 50]
+            },
+            {
+                "name": "小红",
+                "type": "line",
+                "stack": "Total",
+                "data": [60, 60, 60, 60, 60, 60, 60]
+            },
+            {
+                "name": "小强",
+                "type": "line",
+                "stack": "Total",
+                "data": [70, 70, 70, 70, 70, 70, 70]
+            },
+            {
+                "name": "小兰",
+                "type": "line",
+                "stack": "Total",
+                "data": [80, 80, 80, 80, 80, 80, 80]
+            },
+            {
+                "name": "小绿",
+                "type": "line",
+                "stack": "Total",
+                "data": [90, 90, 90,90, 90, 90, 90]
+            }
+        ]
+    },
+    "optionZCh": {
+        "title": {
+            "text": "学生语文成绩分析表"
+        },
+        "tooltip": {
+            "trigger": "axis"
+        },
+        "legend": {
+            "data": ["小明", "小红", "小强", "小兰", "小绿"]
+        },
+        "grid": {
+            "left": "3%",
+            "right": "4%",
+            "bottom": "3%",
+            "containLabel": true
+        },
+        "toolbox": {
+            "feature": {
+            "saveAsImage": {}
+            }
+        },
+        "xAxis": {
+            "type": "category",
+            "boundaryGap": false,
+            "data": ["第一次", "第二次", "第三次", "第四次", "第五次", "第六次", "第七次"]
+        },
+        "yAxis": {
+            "type": "value"
+        },
+        "series": [
+            {
+                "name": "小明",
+                "type": "line",
+                "stack": "Total",
+                "data": [90, 90, 90,90, 90, 90, 90]
+            },
+            {
+                "name": "小红",
+                "type": "line",
+                "stack": "Total",
+                "data": [80, 80, 80, 80, 80, 80, 80]
+            },
+            {
+                "name": "小强",
+                "type": "line",
+                "stack": "Total",
+                "data": [70, 70, 70, 70, 70, 70, 70]
+            },
+            {
+                "name": "小兰",
+                "type": "line",
+                "stack": "Total",
+                "data": [60, 60, 60, 60, 60, 60, 60]
+            },
+            {
+                "name": "小绿",
+                "type": "line",
+                "stack": "Total",
+                "data": [50, 50, 50, 50, 50, 50, 50]
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+    "optionZhuMa": {
+        "legend": {},
+        "tooltip": {},
+        "dataset": {
+            "source": [
+            ["product", "小明", "小红", "小强","小兰","小绿"],
+            ["第一次", 90, 87, 90,70,67],
+            ["第二次", 78, 88, 91,77,70],
+            ["第三次", 100,78,89,73,77],
+            ["第四次", 97,90,88,77,85],
+            ["第五次", 98,84,80,80,90],
+            ["第六次", 99,89,89,72,97],
+            ["第七次", 95,86,90,76,100]
+            ]
+        },
+        "xAxis": { "type": "category" },
+        "yAxis": {},
+        "series": [{ "type": "bar" }, { "type": "bar" }, { "type": "bar" },{ "type": "bar" },{ "type": "bar" }]
+    },
+
+    "optionZhuEn": {
+        "legend": {},
+        "tooltip": {},
+        "dataset": {
+            "source": [
+            ["product", "小明", "小红", "小强","小兰","小绿"],
+            ["第一次", 50,60,70,80,90],
+            ["第二次", 50,60,70,80,90],
+            ["第三次", 50,60,70,80,90],
+            ["第四次", 50,60,70,80,90],
+            ["第五次", 50,60,70,80,90],
+            ["第六次", 50,60,70,80,90],
+            ["第七次", 50,60,70,80,90]
+            ]
+        },
+        "xAxis": { "type": "category" },
+        "yAxis": {},
+        "series": [{ "type": "bar" }, { "type": "bar" }, { "type": "bar" },{ "type": "bar" },{ "type": "bar" }]
+    },
+    "optionZhuCh": {
+        "legend": {},
+        "tooltip": {},
+        "dataset": {
+            "source": [
+            ["product", "小明", "小红", "小强","小兰","小绿"],
+            ["第一次", 90,80,70,60,50],
+            ["第二次", 90,80,70,60,50],
+            ["第三次", 90,80,70,60,50],
+            ["第四次", 90,80,70,60,50],
+            ["第五次", 90,80,70,60,50],
+            ["第六次", 90,80,70,60,50],
+            ["第七次", 90,80,70,60,50]
+            ]
+        },
+        "xAxis": { "type": "category" },
+        "yAxis": {},
+        "series": [{ "type": "bar" }, { "type": "bar" }, { "type": "bar" },{ "type": "bar" },{ "type": "bar" }]
+    }
+}
