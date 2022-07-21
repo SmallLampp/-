@@ -25,5 +25,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 展示demo
 ```
-https://SmallLampp.github.io/thirdTest/final/login/public/index.html
+See [demo](https://SmallLampp.github.io/-/final/login/public/index.html).
 ```
